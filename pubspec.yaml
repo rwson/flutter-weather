@@ -1,0 +1,111 @@
+name: fresh_weather
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  location: 1.4.1
+  dio: 1.0.4
+  csv: 4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/background.png
+    - assets/images/bg/day/clear.png
+    - assets/images/bg/day/cloud.png
+    - assets/images/bg/day/overcast.png
+    - assets/images/bg/day/rain.png
+    - assets/images/bg/day/snow.png
+    - assets/images/bg/day/thunder.png
+    - assets/images/bg/night/clear.png
+    - assets/images/bg/night/cloud.png
+    - assets/images/bg/night/overcast.png
+    - assets/images/bg/night/rain.png
+    - assets/images/bg/night/smog.png
+    - assets/images/bg/night/snow.png
+    - assets/images/bg/night/thunder.png
+    - assets/icons/100.png
+    - assets/icons/100n.png
+    - assets/icons/101.png
+    - assets/icons/102.png
+    - assets/icons/103.png
+    - assets/icons/103n.png
+    - assets/icons/104.png
+    - assets/icons/104n.png
+    - assets/icons/200.png
+    - assets/icons/201.png
+    - assets/icons/202.png
+    - assets/icons/203.png
+    - assets/icons/204.png
+    - assets/icons/205.png
+    - assets/icons/206.png
+    - assets/icons/207.png
+    - assets/icons/208.png
+    - assets/icons/209.png
+    - assets/icons/210.png
+    - assets/icons/211.png
+    - assets/icons/212.png
+    - assets/icons/213.png
+    - assets/icons/300.png
+    - assets/icons/300n.png
+    - assets/icons/301.png
+    - assets/icons/301n.png
+    - assets/icons/302.png
+    - assets/icons/303.png
+    - assets/icons/304.png
+    - assets/icons/305.png
+    - assets/icons/306.png
+    - assets/icons/307.png
+    - assets/icons/309.png
+    - assets/icons/310.png
+    - assets/icons/311.png
+    - assets/icons/312.png
+    - assets/icons/313.png
+    - assets/icons/314.png
+    - assets/icons/315.png
+    - assets/icons/316.png
+    - assets/icons/317.png
+    - assets/icons/318.png
+    - assets/icons/399.png
+    - assets/icons/400.png
+    - assets/icons/401.png
+    - assets/icons/402.png
+    - assets/icons/403.png
+    - assets/icons/404.png
+    - assets/icons/405.png
+    - assets/icons/406.png
+    - assets/icons/406n.png
+    - assets/icons/407.png
+    - assets/icons/407n.png
+    - assets/icons/408.png
+    - assets/icons/409.png
+    - assets/icons/410.png
+    - assets/icons/499.png
+    - assets/icons/500.png
+    - assets/icons/501.png
+    - assets/icons/502.png
+    - assets/icons/503.png
+    - assets/icons/504.png
+    - assets/icons/507.png
+    - assets/icons/508.png
+    - assets/icons/509.png
+    - assets/icons/510.png
+    - assets/icons/511.png
+    - assets/icons/512.png
+    - assets/icons/513.png
+    - assets/icons/514.png
+    - assets/icons/515.png
+    - assets/icons/900.png
+    - assets/icons/901.png
+    - assets/icons/999.png
